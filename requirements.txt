@@ -1,0 +1,8 @@
+pyyaml
+bitstring
+pybloom-live
+ecdsa
+tqdm
+pycuda
+numpy
+psutil

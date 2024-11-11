@@ -1,1 +1,16 @@
-# Configuration files
+puzzle:
+  target_addresses_file: "data/target_addresses.txt"
+  batch_size: 10000
+  use_gpu: false
+  threads: 4
+
+logging:
+  level: INFO
+  file: "logs/puzzle_solver.log"
+  max_file_size: 10485760  # 10 MB
+  backup_count: 5
+
+optimization:
+  use_bloom_filter: true
+  bloom_filter_size: 1000000
+  bloom_filter_fp_prob: 0.01
